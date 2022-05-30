@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue May 17 21:42:52 2022
+Created on Mon May 30 15:04:01 2022
 
 @author: sarat
 """
 
-
-filename = input("Input the Filename") 
-f_extns = filename.split(".") 
-print(" The extension if the file is: "+ repr(f_extns[-1]))
+file= input("input the file name:")
+exten=file.split(".")
+print("the extension of the file is:",exten[-1])

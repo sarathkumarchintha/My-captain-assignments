@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue May 17 21:38:18 2022
+Created on Mon May 30 14:48:39 2022
 
 @author: sarat
 """
 
-radius= float ( input(" Enter the radius of the circle : ")) 
-area=  3.1415* radius *radius 
-print  ("Area of the circle is {}".format  (area))
+from math import pi
+r=float(input("enter the radius of circle:"))
+print("area of circle is :",(pi)*(r**2))
